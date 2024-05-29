@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cu Tinder</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="w-full h-screen bg-black font-['helvetica_now_display']">
+        <div class="imagecontainer w-full h-screen relative">
+            <div class="maincard z-[3] w-full absolute h-screen bg-orange-600">
+                <img src="https://images.unsplash.com/photo-1541823709867-1b206113eafd?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+            </div>
+            <div class="incomingcard z-[2] w-full absolute absolute h-screen bg-green-600"></div>
+        </div>
+        <div class="absolute top-0 left-0 z-[4] w-full h-screen px-5 py-5 flex flex-col justify-between">
+            <div class="navbar flex justify-between items-center text-white">
+                <div class="prflimg w-[3.5rem] h-[3.5rem] overflow-hidden rounded-full bg-red-600">
+                    <img class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="profile">
+                </div>
+                <h3 class="capitalize text-2xl font-medium tracking-tighter">they liked you</h3>
+                <div class="chaticon relative flex items-center justify-center rounded-full w-[3.5rem] h-[3.5rem] bg-white/50">
+                    <i class="ri-chat-3-fill"></i>
+                    <div class="badge flex items-center justify-center absolute w-5 h-5 rounded-full top-0 right-0 -translate-y-[5px] -translate-x-[5px] bg-red-500">
+                        <h5 class="text-[10px] font-semibold">5</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="details w-full">
+                <div class="flex gap-4">
+                    <i class="w-[2rem] h-[2rem] flex items-center justify-center rounded-full bg-white font-semibold ri-corner-left-up-fill"></i>
+                    <h3 class="text-white">USA, California</h3>
+                </div>
+                <div class="flex text-white gap-5 mt-2">
+                    <h1 class="text-7xl tracking-tighter font-semibold ">Victoria</h1>
+                    <h1 class="text-7xl tracking-tighter font-semibold opacity-60">18</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
